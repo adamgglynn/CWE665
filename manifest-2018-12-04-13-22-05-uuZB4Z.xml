@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="109940" type="Source Code" status="Accepted" submissionDate="2013-05-21" language="C++" author="NSA/Center for Assured Software" numberOfFiles="5" testsuiteid="86 108">
+    <description><![CDATA[CWE: 665 Improper Initialization<br/> BadSource:  Do not initialize data properly<br/> GoodSource: Initialize data<br/> Sinks: ncat<br/> BadSink : Copy string to data using wcsncat<br/> Flow Variant: 74 Data flow: data passed in a map from one function to another in different source files]]></description>
+    <file path="000/109/940/CWE665_Improper_Initialization__wchar_t_ncat_74b.cpp" language="C++" size="1862" checksum="a72d7e9378377abfd0ac23d8cb89aa902db7e42f"/>
+    <file path="shared/108/std_testcase.h" language="C" size="4004" checksum="d1801c64bc49d5d05fb3d55f7cc7e3a925c47e2f"/>
+    <file path="shared/108/io.c" language="C" size="5429" checksum="bcf531cb1922c03347031698c1c72eddadbf0d88"/>
+    <file path="shared/108/std_testcase_io.h" language="C" size="1457" checksum="56de16829d5ac9d8086670ee5098217aa6694d26"/>
+    <file path="000/109/940/CWE665_Improper_Initialization__wchar_t_ncat_74a.cpp" language="C++" size="2573" checksum="536da5c4c527871c563e9492070ed7dcdd5cb176">
+      <mixed line="38" name="CWE-665: Improper Initialization"/>
+    </file>
+  </testcase>
+</container>
